@@ -26,12 +26,12 @@ const Home = () => {
                 </Box>
                 <Box className="mb-3 mb-md-5 d-flex">
                     <Box mr={10}>
-                        <span style={{fontSize:'5rem',color:"#28E98C",display:'block'}}>10+</span>
+                        <span style={{fontSize:'4rem',color:"#28E98C",display:'block'}}>10+</span>
                         <Typography variant="body1" color="white">
                         YEARS OF<br/> EXPERIENCE</Typography>
                     </Box>
-                    <Box>
-                        <span style={{fontSize:'5rem',color:"#28E98C",display:'block'}}>182+</span>
+                    <Box sx={{overflowX:'hidden'}}>
+                        <span style={{fontSize:'4rem',color:"#28E98C",display:'block'}}>182+</span>
                         <Typography variant="body1" color="white">
                         PROJECTS COMPLETED ON <br/>
                         15 COUNTRIES</Typography>
