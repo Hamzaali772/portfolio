@@ -1,7 +1,7 @@
 # To Run this Project follow below:
-npm i nodemodule
-npm i bootstrap
-npm run dev 
+npm i nodemodule <br/>
+npm i bootstrap <br/>
+npm run dev <br/>
 # portfolio:
 Creating a portfolio website using HTML, CSS, JavaScript, React, Bootstrap, and Material-UI (MUI) , swiper.js .
 <br/>
