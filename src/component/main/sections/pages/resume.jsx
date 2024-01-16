@@ -20,12 +20,12 @@ const Resume = () => {
                     <Typography variant="body1" color="white"  sx={{ fontSize: {xs: '12px' } }}  > <BusinessCenterIcon/> RESUME</Typography>
                 </Box>
                 <Box className="mb-3 mb-md-5 ">
-                <Typography className='mb-3 mb-md-5 ' variant="h3" color="white" sx={{ fontSize: { xs: '1.8rem', sm: '2rem', md: '2.5rem',lg:'2.7rem' } }}>
+                <Typography data-aos="fade-right" className='mb-3 mb-md-5 ' variant="h3" color="white" sx={{ fontSize: { xs: '1.8rem', sm: '2rem', md: '2.5rem',lg:'2.7rem' } }}>
                 Education & <span style={{ color: '#28E98C' }}>Experience</span></Typography>
-                <Typography variant="body1" color="#aaa">Since beginning my journey as a freelance designer nearly 8 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chopsone design problem at a time.</Typography>
+                <Typography data-aos="fade-up" variant="body1" color="#aaa">Since beginning my journey as a freelance designer nearly 8 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chopsone design problem at a time.</Typography>
                 </Box>
                 <Box>
-                <Timeline position="alternate">
+                <Timeline position="alternate" data-aos="flip-up">
                     <TimelineItem>
                         <TimelineOppositeContent
                         sx={{ m: 'auto 0' }}

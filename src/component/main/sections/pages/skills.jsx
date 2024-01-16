@@ -10,12 +10,12 @@ const Skills = () => {
                 <Typography variant="body1" color="white"  sx={{ fontSize: {xs: '12px' } }}  > <PsychologyIcon/> SKILLS</Typography>
             </Box>
             <Box className="mb-3  ">
-                <Typography className='mb-3  ' variant="h3" color="white" sx={{ fontSize: { xs: '1.8rem', sm: '2rem', md: '2.5rem',lg:'2.7rem' } }}>
+                <Typography data-aos="fade-right" className='mb-3  ' variant="h3" color="white" sx={{ fontSize: { xs: '1.8rem', sm: '2rem', md: '2.5rem',lg:'2.7rem' } }}>
                 My <span style={{ color: '#28E98C' }}>Skills</span></Typography>
             </Box>
             <Box className='d-flex flex-wrap '>
             {skill.map((data, i) => (
-                <Box component="div" mr={3.5} my={3}   >
+                <Box data-aos="fade-right"  data-aos-duration={data.dur} component="div" mr={3.5} my={3}   >
                     <Box className=" rounded-pill custom-service-box" sx={{py:{xs:3,md:7},px:{xs:1,md:3}}} >
                     <ion-icon
                     name={`logo-${data.name}`}

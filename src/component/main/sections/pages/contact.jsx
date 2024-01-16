@@ -7,29 +7,18 @@ const Contact = () => {
         components: {
           MuiTextField: {
             styleOverrides: {
-                // without label    
-            //   root: {
-            //     '& .MuiOutlinedInput-notchedOutline': {
-            //       borderColor: 'white', // Default border color
-            //     },
-            //     '&:hover .MuiOutlinedInput-notchedOutline': {
-            //       borderColor: 'green', // Border color on hover
-            //     },
-            //   },
-
-            // with label
             root: {
                 '& .MuiInputLabel-root': {
-                  color: 'white', // Default label color
+                  color: 'white', 
                 },
                 '& .MuiOutlinedInput-notchedOutline': {
-                  borderColor: 'white', // Default border color
+                  borderColor: 'white', 
                 },
                 '&:hover .MuiOutlinedInput-notchedOutline': {
-                  borderColor: 'green', // Border color on hover
+                  borderColor: 'green', 
                 },
                 '& .MuiInputLabel-root.Mui-focused': {
-                  color: '#28E98C', // Label color when the input is focused
+                  color: '#28E98C', 
                 },
               },
             },
@@ -43,38 +32,38 @@ const Contact = () => {
                     <Typography variant="body1" color="white"  sx={{ fontSize: {xs: '12px' } }}  > <MonetizationOnIcon/> CONTACT</Typography>
             </Box>
             <Box className="mb-3 mb-md-5 ">
-                <Typography className='mb-3 mb-md-4 ' variant="h3" color="white" sx={{ fontSize: { xs: '1.8rem', sm: '2rem', md: '2.5rem',lg:'2.7rem' } }}>
+                <Typography data-aos="fade-right" className='mb-3 mb-md-4 ' variant="h3" color="white" sx={{ fontSize: { xs: '1.8rem', sm: '2rem', md: '2.5rem',lg:'2.7rem' } }}>
                 Let's Work <span style={{ color: '#28E98C' }}> Together!</span></Typography>
                 <Typography variant="h6" color="white">Hi@hamza.developer</Typography>
                 <Box component="form" noValidate >
                     <Grid container  columnSpacing={2} my={7}>
                         <Grid item  xs={12} md={5}>
                             <ThemeProvider  theme={theme}>
-                                <TextField  label="Name" variant="outlined" color="success" fullWidth margin='dense'  />
+                                <TextField data-aos="fade-right"  label="Name" variant="outlined" color="success" fullWidth margin='dense'  />
                             </ThemeProvider>
                         </Grid>
                         <Grid item xs={12} md={7}>
                             <ThemeProvider  theme={theme}>
-                                <TextField  label="Email" variant="outlined" color="success" fullWidth margin="dense" />
+                                <TextField  data-aos="fade-left"  label="Email" variant="outlined" color="success" fullWidth margin="dense" />
                             </ThemeProvider>
                         </Grid>
                         <Grid item xs={12} md={5}>
                         <ThemeProvider  theme={theme}>
-                            <TextField  label="Phone" variant="outlined" color="success" fullWidth margin='dense' />
+                            <TextField  data-aos="fade-right"  label="Phone" variant="outlined" color="success" fullWidth margin='dense' />
                         </ThemeProvider>
                         </Grid>
                         <Grid item xs={12} md={7}>
                         <ThemeProvider  theme={theme}>
-                            <TextField  label="Subject" variant="outlined" color="success" fullWidth margin='dense' />
+                            <TextField  data-aos="fade-left" label="Subject" variant="outlined" color="success" fullWidth margin='dense' />
                             </ThemeProvider >
                         </Grid>
                         <Grid item xs={12} >
                         <ThemeProvider  theme={theme}>
-                            <TextField  label="Budget" type='number' variant="outlined" color="success" fullWidth margin='dense' />
+                            <TextField  data-aos="fade-up" label="Budget" type='number' variant="outlined" color="success" fullWidth margin='dense' />
                         </ThemeProvider >
                         </Grid>
                         <Grid item xs={12} my={1}>
-                        <textarea name="message" id="message" placeholder="Wrire your message here ..."></textarea>
+                        <textarea data-aos="fade-up"  name="message" id="message" placeholder="Wrire your message here ..."></textarea>
                         </Grid>
                     </Grid>
                     <Button variant="contained" color="success" sx={{borderRadius:'20px',px:2,py:1}} endIcon={<SendIcon />}>send Message</Button>
