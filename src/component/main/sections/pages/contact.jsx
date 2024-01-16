@@ -36,7 +36,7 @@ const Contact = () => {
                 Let's Work <span style={{ color: '#28E98C' }}> Together!</span></Typography>
                 <Typography variant="h6" color="white">Hi@hamza.developer</Typography>
                 <Box component="form" noValidate >
-                    <Grid container  columnSpacing={2} my={7}>
+                    <Grid container  my={7}>
                         <Grid item  xs={12} md={5}>
                             <ThemeProvider  theme={theme}>
                                 <TextField data-aos="fade-right"  label="Name" variant="outlined" color="success" fullWidth margin='dense'  />

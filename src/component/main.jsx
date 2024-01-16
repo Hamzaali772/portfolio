@@ -24,18 +24,18 @@ const Main = () => {
       };
   return (
     <>
-        <Box component="div" sx={{p:{xs:2,md:5}}}    >
+        <Box component="div" className="position-relative" sx={{p:{xs:2,md:5}}}    >
             <Grid container id="wrapper" onClick={handleWrapperClick}>
-                <Grid xs={12} md={5} lg={3} >
+                <Grid item xs={12} md={5} lg={3} >
                     <Box  component="div" sx={{position:{md:'fixed',xs:'none'},top:20,margin:'0 auto',width:{md:'30%',xs:'100%'}}}>
                     <Owner gettoggleMenuBar={toggleMenuBar} />
                     </Box>
                 </Grid>
-                <Grid xs={12} md={7} lg={8}  >
+                <Grid item xs={12} md={7} lg={8}  >
                     <Layout/>
                 </Grid>
                 <Grid xs={12} md={7} lg={1}  >
-                <Box component="div" className="  flex-column justify-content-center align-items-center "  sx={{ position: { md: 'fixed', xs: 'relative' }, height: '90vh', display: { xs: 'none', md: 'flex' }, }}>
+                <Box component="div" className="flex-column justify-content-center align-items-center "  sx={{ position: { md: 'fixed', xs: 'relative' }, height: '90vh', display: { xs: 'none', md: 'flex' }, }}>
                     <Navber/>
                 </Box>
                 </Grid>
